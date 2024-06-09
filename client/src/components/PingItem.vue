@@ -27,8 +27,9 @@ export default {
   },
 };
 
-</script><template>
-  <div>
-    <p>{{ msg }}</p>
+</script>
+<template>
+  <div class="container">
+    <button type="button" class="btn btn-primary">{{ msg }}</button>
   </div>
 </template>
